@@ -1,9 +1,9 @@
-getgenv().SpamSkill = false
+getgenv().SpamSkill = true
 getgenv().AutoUseRaceV3 = true
 getgenv().AutoUseRacev4 = true
 getgenv().SpamSkillOnRaceV4 = true
 getgenv().Invisible = true
-getgenv().InCombatNoReset = false
+getgenv().InCombatNoReset = true
 getgenv().Team = "Pirates" -- Marines
 getgenv().TweenSpeed = 350 -- 350 max or Get Tp Back
  getgenv().Setting = { -- Select Weapon, Self Explain
@@ -37,5 +37,6 @@ getgenv().TweenSpeed = 350 -- 350 max or Get Tp Back
             },
         }
     }
- loadstring(game:HttpGet('https://raw.githubusercontent.com/vinhuchi/temp-repos/main/FreeAutoBounty.lua'))()
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/vinhuchi/temp-repos/main/FreeAutoBounty.lua'))() 
+
 
